@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Mafiya-Venom.com</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://kit.fontawesome.com/021358633c.js" crossorigin="anonymous"></script>
+    <style>
+        .container1::before{
+            content: "";
+            background: url('./images/bg4.jpg') no-repeat center center/cover;
+            position:absolute;
+            z-index: -1;
+            opacity: 0.8;
+            width: 100vw !important;
+            height: 100% !important;
+        }
+        .jj a:hover{
+            color:red;
+            /* background-color: red; */
+        }
+        ul li a {
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 23px;
+
+        }
+        ul li a:hover{
+            color:red;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        .jj::before {
+            /* background: url('./images/bg.jpg') no-repeat center center/cover; */
+            position: absolute;
+            background:linear-gradient(45deg,white,gray);
+            content: " ";
+            z-index: -1;
+            opacity: 0.8;
+            width: 100%;
+            height: 53%;
+            /* width: 923px;
+            height: 283px; */
+        }
+
+        .kj {
+            background: linear-gradient(45deg, aqua, lime, blue, red, yellow, orange, purple, yellowgreen, aquamarine, burlywood, chocolate, cyan, cornflowerblue, chartreuse, coral, crimson);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h5:hover,
+        img:hover {
+            cursor: pointer;
+        }
+
+        p {
+            /* font-size: 20px; */
+        }
+        .mn img{
+            height: 175px;
+        }
+        .llh{
+            background: linear-gradient(45deg, aqua, lime, blue, red, yellow, orange, purple, yellowgreen, aquamarine, burlywood, chocolate, cyan, cornflowerblue, chartreuse, coral, crimson);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;  
+        }
+        .ds{
+            background: linear-gradient(245deg,black,red,white);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="hj jj">
+        <div class="row d-flex ">
+            <div class="col-md-1">
+                <img src="./images/./logo.png" alt="logo" width="100px">
+            </div>
+            <div class="col-md-9 mt-md-4 p-2">
+                <ul class="d-flex">
+                    <li><a href="./index.html" class="pr-5" style="text-decoration: none;">Home</a></li>
+                    
+                    <li><a href="./contact-us.html" class="pr-5" style="text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    <form method="POST" name="google-sheet">
+    <div class="container1">
+        <div class="row">
+            <div class="col-md-10 offset-md-2 col-sm-10 offset-sm-2">
+                <h1 class="display-4 font-weight-bold text-uppercase text-center text-white llh">Contact us</h1>
+                <p class="lead text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit, itaque ratione, officiis, fuga perferendis veritatis autem nisi dolor ducimus necessitatibus? Cumque, voluptatem?</p>
+            </div>
+        </div>
+        <div class="row offset-md-1">
+            <div class="col-md-4 text-white" >
+                <i class="fa-solid fa-location-dot fa-2x text-white pl-md-5"></i>
+                <h4 class="pl-3">Location</h4>
+                <p>Lonere,Raigad,India</p>
+                <i class="fa-solid fa-phone fa-2x text-white pl-md-5"></i>
+                <h4 class="pl-md-4">Call us</h4>
+                <p>+91 93565 69973</p>
+                <i class="fa-solid fa-envelope fa-2x text-white pl-md-5"></i>
+                <h3 class="pl-md-4 ">E-mail</h4>
+                <p>Mafiya-Venom@gmail.com</p>
+            </div>
+            <div class="col-md-7">
+                <div class="contactform">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-5">
+                            <span id="lablresponse" class="tab-content"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-3">
+                            <input type="text" name="Name" id="tbName" class="form-control my-2" placeholder="Name">
+                        </div>
+                        <br>
+                        <div class="col-md-6 col-sm-3">
+                            <input type="number" name="Mobile_No" id="tbemail" class="form-control my-2" placeholder="Enter Mobile No">
+                        </div>
+                        <br>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col-md-12 col-sm-3">
+                            <input type="text" name="State" id="tbstate" placeholder="Enter state Name" class="form-control my-2">
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col-md-12 col-sm-3">
+                            <textarea name="Massage" id="tbmassage" cols="20" rows="7" class="form-control my-2" placeholder="Enter Query"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-end mb-2">
+                            <input type="submit" value="Send massage" class="btn btn-lg btn-submit btn-outline-light">
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</form>
+<footer class="">
+    <div class="row footer-top p-5" style="background-color: #232f3e;">
+        <div class="col-md-4 col-12  offset-lg-1 text-white">
+            <h4>Contact Us</h4>
+            <div><i class="fa-solid fa-envelope p-2"></i><span>Mafiya-Venom@gmail.com</span></div>
+            <div><i class="fa-solid fa-phone p-2"></i><span>+91 9356569973</span></div>
+            <div class="cursor-pointer"><i class="fa-brands fa-facebook p-2"></i> <i class="fa-brands fa-instagram p-1"></i> <i class="fa-brands fa-twitter p-1"></i></div>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-4 kk text-white">
+            <h4>Links</h1>
+             <div><a href="./index.html" class="text-white">Home</a></div>
+             <div><a href="./view.html" class="text-white">View</a></div>
+             <div><a href="./contact-us.html" class="text-white">Contact Us</a></div>
+             
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-4 text-white">
+            <h4 class="mb-4">Address</h4>
+            <p class="lh-0">Lonere, Tal-Mangaon,</p>
+            <p class="lh-0">Dist-Raigad,</p>
+            <p class="lh-0">Maharashtra (India)</p>
+        </div>
+    </div>
+    <div class="footer-bootom text-center pt-5" style="background-color: #131a22;">
+        <div class="row">
+            <div class="logo col-md-2 col-4  offset-md-5 offset-4"><img src="./images/logo.png" class="w-100 img-fluid" alt="" style="border-radius: 50%;"></div>
+        </div>
+    <div class="row">
+        <div class="name col-md-4 col-4 offset-md-4 offset-2 text-white ds"><h3>Mafiya-Venom</h3></div>
+    </div>
+    <div class="row">
+        <div class="col-12 py-4 text-white">
+            <p>© Copyright 2021-2022 www.Mafiya-Venom.com All rights reserved. Developed by Mafiya-Venom.</p>
+        </div>
+    </div>
+</div>
+</footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxF22l0Qq5ON08uklNSI60oEEnZ62GNyaZ6F69SqWIIFuz-B_1dHZBbAEwrz5RNkZFfEw/exec'
+        const form = document.forms['google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
